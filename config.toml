@@ -1,4 +1,4 @@
-baseURL = "https://pestillilab.github.io/Tacademia-DEMO/"
+baseURL = "https://pestillilab.github.io/tacademiademo/"
 languageCode = "en-us"
 title = "Sample Site"
 theme="tacademia.hugo"
