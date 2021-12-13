@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>map on Sample Site</title>
-    <link>https://pestillilab.github.io/Tacademia-DEMO/tags/map/</link>
+    <link>https://pestillilab.github.io/tacademiademo/tags/map/</link>
     <description>Recent content in map on Sample Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://pestillilab.github.io/Tacademia-DEMO/tags/map/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://pestillilab.github.io/tacademiademo/tags/map/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Map Title</title>
-      <link>https://pestillilab.github.io/Tacademia-DEMO/home/map/</link>
+      <link>https://pestillilab.github.io/tacademiademo/home/map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pestillilab.github.io/Tacademia-DEMO/home/map/</guid>
+      <guid>https://pestillilab.github.io/tacademiademo/home/map/</guid>
       <description></description>
     </item>
     

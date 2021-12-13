@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>banner on Sample Site</title>
-    <link>https://pestillilab.github.io/Tacademia-DEMO/tags/banner/</link>
+    <link>https://pestillilab.github.io/tacademiademo/tags/banner/</link>
     <description>Recent content in banner on Sample Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://pestillilab.github.io/Tacademia-DEMO/tags/banner/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://pestillilab.github.io/tacademiademo/tags/banner/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Example Slide</title>
-      <link>https://pestillilab.github.io/Tacademia-DEMO/satelliteprojects/banner_example/</link>
+      <link>https://pestillilab.github.io/tacademiademo/satelliteprojects/banner_example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pestillilab.github.io/Tacademia-DEMO/satelliteprojects/banner_example/</guid>
+      <guid>https://pestillilab.github.io/tacademiademo/satelliteprojects/banner_example/</guid>
       <description></description>
     </item>
     

@@ -2,79 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teams on Sample Site</title>
-    <link>https://pestillilab.github.io/Tacademia-DEMO/team/</link>
+    <link>https://pestillilab.github.io/tacademiademo/team/</link>
     <description>Recent content in Teams on Sample Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://pestillilab.github.io/Tacademia-DEMO/team/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://pestillilab.github.io/tacademiademo/team/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://pestillilab.github.io/Tacademia-DEMO/team/team_example/</link>
+      <link>https://pestillilab.github.io/tacademiademo/team/team_example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pestillilab.github.io/Tacademia-DEMO/team/team_example/</guid>
+      <guid>https://pestillilab.github.io/tacademiademo/team/team_example/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://pestillilab.github.io/Tacademia-DEMO/team/team_example_two/</link>
+      <link>https://pestillilab.github.io/tacademiademo/team/team_example_two/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pestillilab.github.io/Tacademia-DEMO/team/team_example_two/</guid>
+      <guid>https://pestillilab.github.io/tacademiademo/team/team_example_two/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://pestillilab.github.io/Tacademia-DEMO/team/alumniexample/</link>
+      <link>https://pestillilab.github.io/tacademiademo/team/alumniexample/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pestillilab.github.io/Tacademia-DEMO/team/alumniexample/</guid>
+      <guid>https://pestillilab.github.io/tacademiademo/team/alumniexample/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://pestillilab.github.io/Tacademia-DEMO/team/pi_example/</link>
+      <link>https://pestillilab.github.io/tacademiademo/team/pi_example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pestillilab.github.io/Tacademia-DEMO/team/pi_example/</guid>
+      <guid>https://pestillilab.github.io/tacademiademo/team/pi_example/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
     <item>
       <title>Diversity</title>
-      <link>https://pestillilab.github.io/Tacademia-DEMO/team/feature_diversity/</link>
+      <link>https://pestillilab.github.io/tacademiademo/team/feature_diversity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pestillilab.github.io/Tacademia-DEMO/team/feature_diversity/</guid>
+      <guid>https://pestillilab.github.io/tacademiademo/team/feature_diversity/</guid>
       <description>We believe that a good lab can only flourish if it embraces the ideas and backgrounds of a truly diverse set of talented people — of every background, race, ethnicity and life experience. We like to joke that our work has Italian design, Japanese technology and is made in America. Our PI is originally from Italy and we have a software engineer from Japan, but the rest of our lab is a diverse group of scientists as well.</description>
     </item>
     
     <item>
       <title>Example Slide</title>
-      <link>https://pestillilab.github.io/Tacademia-DEMO/team/banner_example/</link>
+      <link>https://pestillilab.github.io/tacademiademo/team/banner_example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pestillilab.github.io/Tacademia-DEMO/team/banner_example/</guid>
+      <guid>https://pestillilab.github.io/tacademiademo/team/banner_example/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Example Slide</title>
-      <link>https://pestillilab.github.io/Tacademia-DEMO/team/slider_example/</link>
+      <link>https://pestillilab.github.io/tacademiademo/team/slider_example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pestillilab.github.io/Tacademia-DEMO/team/slider_example/</guid>
+      <guid>https://pestillilab.github.io/tacademiademo/team/slider_example/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Inclusivity</title>
-      <link>https://pestillilab.github.io/Tacademia-DEMO/team/feature_inclusivity/</link>
+      <link>https://pestillilab.github.io/tacademiademo/team/feature_inclusivity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pestillilab.github.io/Tacademia-DEMO/team/feature_inclusivity/</guid>
+      <guid>https://pestillilab.github.io/tacademiademo/team/feature_inclusivity/</guid>
       <description>We are committed to make educational and computational resources available to everyone that is interested in neuroscience, including communities that would otherwise not have access to these resources. Using data, analyses, and tutorials available on brainlife.io, we can teach neuroscience at institutions that do not have a neuroscience program. For instance, our brainlife.io team is developing a project in collaboration with Lawrence Technological University (LTU) to connect minority-serving institutions with neuroscience data and advanced computing resources.</description>
     </item>
     
