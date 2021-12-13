@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Sample Site</title>
+    <link>https://pestillilab.github.io/Tacademia-DEMO/tags/</link>
+    <description>Recent content in Tags on Sample Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Mar 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://pestillilab.github.io/Tacademia-DEMO/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>post</title>
+      <link>https://pestillilab.github.io/Tacademia-DEMO/tags/post/</link>
+      <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/Tacademia-DEMO/tags/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>active</title>
+      <link>https://pestillilab.github.io/Tacademia-DEMO/tags/active/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/Tacademia-DEMO/tags/active/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>alumni</title>
+      <link>https://pestillilab.github.io/Tacademia-DEMO/tags/alumni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/Tacademia-DEMO/tags/alumni/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>banner</title>
+      <link>https://pestillilab.github.io/Tacademia-DEMO/tags/banner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/Tacademia-DEMO/tags/banner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>feature</title>
+      <link>https://pestillilab.github.io/Tacademia-DEMO/tags/feature/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/Tacademia-DEMO/tags/feature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>infobox</title>
+      <link>https://pestillilab.github.io/Tacademia-DEMO/tags/infobox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/Tacademia-DEMO/tags/infobox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>map</title>
+      <link>https://pestillilab.github.io/Tacademia-DEMO/tags/map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/Tacademia-DEMO/tags/map/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pi</title>
+      <link>https://pestillilab.github.io/Tacademia-DEMO/tags/pi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/Tacademia-DEMO/tags/pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>slider</title>
+      <link>https://pestillilab.github.io/Tacademia-DEMO/tags/slider/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/Tacademia-DEMO/tags/slider/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
