@@ -11,20 +11,20 @@
     
     
     <item>
-      <title>Example Publication Title</title>
-      <link>https://pestillilab.github.io/tacademiademo/publications/example_publication/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pestillilab.github.io/tacademiademo/publications/example_publication/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Example Slide</title>
       <link>https://pestillilab.github.io/tacademiademo/publications/banner_example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pestillilab.github.io/tacademiademo/publications/banner_example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</title>
+      <link>https://pestillilab.github.io/tacademiademo/publications/1228397-copy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/publications/1228397-copy/</guid>
       <description></description>
     </item>
     
