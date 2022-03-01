@@ -1,6 +1,6 @@
 ---
 name : User Name
-image : img/user.png
+image : /img/user.png
 position : Example Text
 facebook : url
 scholar : url 

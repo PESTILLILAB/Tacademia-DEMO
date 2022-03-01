@@ -296,16 +296,16 @@ ul > li:nth-child(even) div.event_date {right: 0;}
                 {{range .Pages}}
                     {{if in .Params.tags "slider"}}
                         {{if in .Params.tags "active"}}
-                        <div class="carousel-item active" style="height:100vh">
-                            <img class="d-block w-100" src="{{.Site.BaseURL }}{{.Params.image}}" style="height:100vh" alt="First slide">
+                        <div class="carousel-item active" style="height:50vh">
+                            <img class="d-block w-100" src="{{.Params.image}}" style="height:50vh" alt="First slide">
                             <div class="carousel-caption {{.Params.align}} ">
                                 <div class="rect float-right"><h1>{{.Params.title}}</h1></div>
                                 <!-- <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> -->
                               </div>
                         </div>
                         {{else}}
-                    <div class="carousel-item" style="height:100vh">
-                        <img class="d-block w-100" src="{{.Site.BaseURL }}{{.Params.image}}" style="height:100vh" alt="First slide">
+                    <div class="carousel-item" style="height:50vh">
+                        <img class="d-block w-100" src="{{.Params.image}}" style="height:50vh" alt="First slide">
                         <div class="carousel-caption {{.Params.align}} ">
                             <div class="rect float-right"><h1>{{.Params.title}}</h1></div>
                             <!-- <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> -->
@@ -336,7 +336,7 @@ ul > li:nth-child(even) div.event_date {right: 0;}
         </div>
         <div class="col-md-5">
             {{if isset .Params "image"}}
-                <img class="featurette-image img-fluid mx-auto" src="{{.Site.BaseURL }}{{.Params.image}} " alt="Generic placeholder image">
+                <img class="featurette-image img-fluid mx-auto" src=" {{.Params.image}} " alt="Generic placeholder image">
             {{else}}
                 <iframe class="featurette-video" height="auto" width ="auto" src="{{.Params.youtubeUrl}}"></iframe>
             {{end}}
@@ -357,10 +357,10 @@ ul > li:nth-child(even) div.event_date {right: 0;}
         <div class="container">
             <div class="row text-center mb-5">
                 <div class="col-lg-12 mx-auto">
-                    <h2 class="featurette-heading margin-paragraph-left" style="color: {{.Params.titleColor}}">{{.Params.title}}</h2>
+                    <h2 class="featurette-heading" style="color: {{.Params.titleColor}}">{{.Params.title}}</h2>
                     <p class="margin-paragraph-left" style="color: {{.Params.subtitleColor}}">{{.Params.subtitle}}</p>
                     <div class="videoWrapper">    
-                        <iframe height="{{.Params.height}}" width ="{{.Params.width}}" src="{{.Params.youtubeUrl}}"></iframe>
+                        <iframe height="{{.Params.height}}" width ="100%" src="{{.Params.youtubeUrl}}"></iframe>
                     </div>
                 </div>
             </div>
@@ -379,7 +379,7 @@ ul > li:nth-child(even) div.event_date {right: 0;}
 
         <div class="row">
             <div class="col-lg-12 mx-auto">
-              <ul class="timeline" id = "_awards" style="height:50vh;overflow:auto">
+              <ul class="timeline" id = "_awards" style="height:100vh;overflow:auto">
                 {{ range .Pages  }}
                 {{if isset .Params "agency"}}
                 <li class="timeline-item bg-white rounded ml-3 p-4" dt-date = {{.Params.startDate}} data-event-date= "{{.Params.startDate}} ">
@@ -410,47 +410,15 @@ ul > li:nth-child(even) div.event_date {right: 0;}
 
     {{ with .Site.GetPage "/research" }}
     {{range .Pages}}
-    {{if in .Params.tags "map"}}
-
-    <div style="background: {{.Params.backgroundColor}}">
-        <div class="container">
-            <div class="row text-center mb-5">
-                <div class="col-lg-12 mx-auto">
-                    <h2 class="featurette-heading margin-paragraph-left" style="color: {{.Params.titleColor}}">{{.Params.title}}</h2>
-                    <p class="margin-paragraph-left" style="color: {{.Params.subtitleColor}}">{{.Params.subtitle}}</p>
-                    <div id="map" style="height : {{.Params.height}}px; width: {{.Params.width}}px"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script>
-        var map;
-        function initMap() {
-            console.log("I am running");
-            fetch('{{.Params.mapData}}').then(res=>res.json()).then(insts=>{
-                map = new google.maps.Map(document.getElementById("map"), {
-                    center: { lat: 20, lng: 10 },
-                    zoom: 2 
-                });
-                for(let name in insts) {
-                    if(insts[name].lat && insts[name].lng) {
-                        new google.maps.Marker({
-                            position: insts[name],
-                            map: map,
-                            title: name,
-                            //label: 'hi',
-                        });
-                    }
-                }
-            });
-        }
-    </script>
-    {{end}}
+        {{if in .Params.tags "map"}}
+            {{ partial "map.html" . }}
+        {{end}}
     {{end}}
     {{end}}
 
 
     </main>
+
     {{ partial "footer.html" .}}
     <!-- Optional JavaScript; choose one of the two! -->
 

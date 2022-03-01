@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col-md-3 col-sm-12 mb-3 text-center">
                 <a href="{{.Site.Params.Footer.logoLink}}">
-                    <img src="{{.Site.BaseURL}}{{.Site.Params.Footer.logo}}" alt="{{.Site.Params.Footer.logoAlt}}" class="img-fluid">
+                    <img src="{{.Site.Params.Footer.logo}}" alt="{{.Site.Params.Footer.logoAlt}}" class="img-fluid">
                 </a>
             </div>
             <div class="col-md-9 col-sm-12">
@@ -74,31 +74,6 @@
     </div>
 
 </footer>
-<script>
-    var map;
-        function initMap() {
-            console.log("I am running at footer");
-            fetch('{{.Params.mapData}}').then(res=>{
-                return res;
-            }).then(insts=>{
-                map = new google.maps.Map(document.getElementById("map"), {
-                    center: { lat: 20, lng: 10 },
-                    zoom: 2 
-                });
-                for(let name in insts) {
-                    if(insts[name].lat && insts[name].lng) {
-                        new google.maps.Marker({
-                            position: insts[name],
-                            map: map,
-                            title: name,
-                            //label: 'hi',
-                        });
-                    }
-                }
-            });
-        }
-</script>
+
 <script src="https://kit.fontawesome.com/76ed678b6f.js" crossorigin="anonymous"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key={{.Site.Params.keys.googleMaps}}&callback=initMap&libraries=&v=weekly"
-      async
-></script>
+<script src="https://maps.googleapis.com/maps/api/js?key={{.Site.Params.keys.googleMaps}}&callback=initMap&libraries=&v=weekly" async></script>

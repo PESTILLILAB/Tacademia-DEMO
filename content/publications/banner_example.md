@@ -1,5 +1,5 @@
 ---
 title: Example Slide
-image : img/research.jpg
+image : /img/research.jpg
 tags : ['slider','active']
 ---

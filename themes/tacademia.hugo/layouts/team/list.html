@@ -295,26 +295,39 @@ ul > li:nth-child(even) div.event_date {right: 0;}
 
 
 <main role="main">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="3000">
         <div class="carousel-inner">
             {{ with .Site.GetPage "/team" }}
                 {{range .Pages}}
                     {{if in .Params.tags "slider"}}
-                    <div class="carousel-item active" style="height:50vh">
-                        <img class="d-block w-100" src="{{.Site.BaseURL }}{{.Params.image}}" style="height:50vh" alt="First slide">
-                    </div>
-                    {{ end }}
+                      {{if in .Params.tags "active"}}
+                      <div class="carousel-item active" style="height:50vh">
+                          <img class="d-block w-100" src="{{.Params.image}}" style="height:50vh" alt="First slide">
+                          <div class="carousel-caption {{.Params.align}} ">
+                            <div class="rect float-right"><h1>{{.Params.title}}</h1></div>
+                          </div>
+                      </div>
+                      {{else}}
+                      <div class="carousel-item" style="height:50vh">
+                        <img class="d-block w-100" src="{{.Params.image}}" style="height:100vh" alt="First slide">
+                        <div class="carousel-caption {{.Params.align}} ">
+                            <div class="rect float-right"><h1>{{.Params.title}}</h1></div>
+                            <!-- <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> -->
+                        </div>
+                      </div>
+                    {{end}}
+                    {{end}}
                 {{end}}
             {{end}}
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
           <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
-          </a>
+          </a> -->
     </div>
 
   
@@ -328,7 +341,7 @@ ul > li:nth-child(even) div.event_date {right: 0;}
         {{ if in .Params.tags "pi" }}
         <div class="row">  
             <div class="col-md-5 text-center">
-                <img src="{{.Site.BaseURL }}{{ .Params.image}}" class="" alt="Generic placeholder image" width="300" height="300">
+                <img src="{{ .Params.image}}" class="" alt="Generic placeholder image" width="300" height="300">
             </div>
             <div class="col-md-7">
                 <h2 class="font-bold capitalize">{{.Params.name}}</h2>
@@ -338,9 +351,9 @@ ul > li:nth-child(even) div.event_date {right: 0;}
                     {{if .Params.facebook}}
                     <a href ="{{.Params.facebook}}"><i class="icons fab fa-facebook-square fa-lg"></i></a>&nbsp
                     {{end}}
-                    <!-- {{if .Params.scholar}}
-                    <a href ="{{.Params.scholar}}"><i class="icons fa fa-graduation fa-lg"></i></a>&nbsp
-                    {{end}} -->
+                    {{if .Params.scholar}}
+                    <a href ="{{.Params.scholar}}"><i class="ai ai-google-scholar-square ai-lg icons"></i></a>&nbsp
+                    {{end}}
                     {{if .Params.twitter}}
                     <a href ="{{.Params.twitter}}"><i class="icons fab fa-twitter-square fa-lg"></i></a>&nbsp
                     {{end}}
@@ -370,7 +383,7 @@ ul > li:nth-child(even) div.event_date {right: 0;}
         {{ if in .Params.tags "active" }}
         <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
           <div class="text-center">
-            <img src="{{.Site.BaseURL }}{{.Params.image}}" class="teamImage" alt="Generic placeholder image" width="200" height="200">
+            <img src="{{.Params.image}}" class="teamImage" alt="Generic placeholder image" width="200" height="200">
 
             <div class="margin-5px"></div>
             <h5 class="font-bold">{{.Params.name}}</h5>
@@ -379,9 +392,9 @@ ul > li:nth-child(even) div.event_date {right: 0;}
               {{if .Params.facebook}}
               <a href ="{{.Params.facebook}}"><i class="icons fab fa-facebook-square fa-lg"></i></a>&nbsp
               {{end}}
-              <!-- {{if .Params.scholar}}
-              <a href ="{{.Params.scholar}}"><i class="icons fa fa-graduation fa-lg"></i></a>&nbsp
-              {{end}} -->
+              {{if .Params.scholar}}
+              <a href ="{{.Params.scholar}}"><i class="ai ai-google-scholar-square ai-lg icons"></i></a>&nbsp
+              {{end}}
               {{if .Params.twitter}}
               <a href ="{{.Params.twitter}}"><i class="icons fab fa-twitter-square fa-lg"></i></a>&nbsp
               {{end}}
@@ -408,7 +421,7 @@ ul > li:nth-child(even) div.event_date {right: 0;}
     </div>
     <div class="col-md-5">
         {{if isset .Params "image"}}
-            <img class="featurette-image img-fluid mx-auto" src="{{.Site.BaseURL }}{{.Params.image}} " alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto" src=" {{.Params.image}} " alt="Generic placeholder image">
         {{else}}
             <iframe class="featurette-video" height="auto" width ="auto" src="{{.Params.youtubeUrl}}"></iframe>
         {{end}}
@@ -436,7 +449,7 @@ ul > li:nth-child(even) div.event_date {right: 0;}
         {{ if in .Params.tags "collaborators" }}
         <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
           <div class="text-center">
-            <img src="{{.Site.BaseURL }}{{.Params.image}}" class="" alt="Generic placeholder image teamImage" width="140" height="140">
+            <img src="{{.Params.image}}" class="teamImage" alt="Generic placeholder image teamImage" width="140" height="140">
 
             <div class="margin-5px"></div>
             <h5 class="font-bold">{{.Params.name}}</h5>
@@ -445,9 +458,9 @@ ul > li:nth-child(even) div.event_date {right: 0;}
               {{if .Params.facebook}}
               <a href ="{{.Params.facebook}}"><i class="icons fab fa-facebook-square fa-lg"></i></a>&nbsp
               {{end}}
-              <!-- {{if .Params.scholar}}
-              <a href ="{{.Params.scholar}}"><i class="icons fa fa-graduation fa-lg"></i></a>&nbsp
-              {{end}} -->
+              {{if .Params.scholar}}
+              <a href ="{{.Params.scholar}}"><i class="ai ai-google-scholar-square ai-lg icons"></i></a>&nbsp
+              {{end}}
               {{if .Params.twitter}}
               <a href ="{{.Params.twitter}}"><i class="icons fab fa-twitter-square fa-lg"></i></a>&nbsp
               {{end}}
@@ -471,7 +484,7 @@ ul > li:nth-child(even) div.event_date {right: 0;}
       </div>
 
       <div class="row">
-        <div class="col-lg-12 mx-auto" style="height:40vh;overflow:auto;">
+        <div class="col-lg-12 mx-auto" style="height:100vh;overflow:auto;">
           <ul class="timeline" id = "_awards">
             {{ range .Pages  }}
             {{if in .Params.tags "alumni"}}
@@ -480,7 +493,7 @@ ul > li:nth-child(even) div.event_date {right: 0;}
                 {{.Params.startDate}}
               </div>
               <div class="text-center">
-                <img src="{{.Site.BaseURL}}{{.Params.image}}" class="teamImage" alt="Generic placeholder image" width="140" height="140">
+                <img src="{{.Params.image}}" class="teamImage" alt="Generic placeholder image" width="140" height="140">
     
                 <div class="margin-5px"></div>
                 <h5 class="font-bold">{{.Params.name}}</h5>
@@ -489,9 +502,9 @@ ul > li:nth-child(even) div.event_date {right: 0;}
                   {{if .Params.facebook}}
                   <a href ="{{.Params.facebook}}"><i class="icons fab fa-facebook-square fa-lg"></i></a>&nbsp
                   {{end}}
-                  <!-- {{if .Params.scholar}}
+                  {{if .Params.scholar}}
                   <a href ="{{.Params.scholar}}"><i class="icons fa fa-graduation fa-lg"></i></a>&nbsp
-                  {{end}} -->
+                  {{end}}
                   {{if .Params.twitter}}
                   <a href ="{{.Params.twitter}}"><i class="icons fab fa-twitter-square fa-lg"></i></a>&nbsp
                   {{end}}
@@ -505,44 +518,12 @@ ul > li:nth-child(even) div.event_date {right: 0;}
               {{end}}
           </ul>
     </div>
+
     {{ with .Site.GetPage "/team" }}
     {{range .Pages}}
-    {{if in .Params.tags "map"}}
-
-    <div style="background: {{.Params.backgroundColor}}">
-        <div class="container">
-            <div class="row text-center mb-5">
-                <div class="col-lg-12 mx-auto">
-                    <h2 class="featurette-heading margin-paragraph-left" style="color: {{.Params.titleColor}}">{{.Params.title}}</h2>
-                    <p class="margin-paragraph-left" style="color: {{.Params.subtitleColor}}">{{.Params.subtitle}}</p>
-                    <div id="map" style="height : {{.Params.height}}px; width: {{.Params.width}}px"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script>
-        var map;
-        function initMap() {
-            console.log("I am running");
-            fetch('{{.Params.mapData}}').then(res=>res.json()).then(insts=>{
-                map = new google.maps.Map(document.getElementById("map"), {
-                    center: { lat: 20, lng: 10 },
-                    zoom: 2 
-                });
-                for(let name in insts) {
-                    if(insts[name].lat && insts[name].lng) {
-                        new google.maps.Marker({
-                            position: insts[name],
-                            map: map,
-                            title: name,
-                            //label: 'hi',
-                        });
-                    }
-                }
-            });
-        }
-    </script>
-    {{end}}
+        {{if in .Params.tags "map"}}
+            {{ partial "map.html" . }}
+        {{end}}
     {{end}}
     {{end}}
 
@@ -571,6 +552,7 @@ ul > li:nth-child(even) div.event_date {right: 0;}
 
     </div><!-- /.container -->
   </main>
+
   {{ partial "footer.html" .}}
   <!-- Optional JavaScript; choose one of the two! -->
 

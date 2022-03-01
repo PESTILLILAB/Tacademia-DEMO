@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sample Site</title>
+    <link>https://pestillilab.github.io/tacademiademo/</link>
+    <description>Recent content on Sample Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Mar 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://pestillilab.github.io/tacademiademo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://pestillilab.github.io/tacademiademo/team/team_example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/team/team_example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pestillilab.github.io/tacademiademo/team/team_example_two/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/team/team_example_two/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Just another sample post</title>
+      <link>https://pestillilab.github.io/tacademiademo/news/post/</link>
+      <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/news/post/</guid>
+      <description>First Heading Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+Sub Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, perferendis saepe voluptatem a nesciunt architecto voluptas deleniti dolor tempora quasi quidem odit rem fugit magnam minima quam dolores vel id?
+Header 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pestillilab.github.io/tacademiademo/team/alumniexample/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/team/alumniexample/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pestillilab.github.io/tacademiademo/team/pi_example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/team/pi_example/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Austin A Modern and Growing City</title>
+      <link>https://pestillilab.github.io/tacademiademo/news/slider_austin_growing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/news/slider_austin_growing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo Feature</title>
+      <link>https://pestillilab.github.io/tacademiademo/research/feature_example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/research/feature_example/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Demo Feature 2</title>
+      <link>https://pestillilab.github.io/tacademiademo/research/feature_example-copy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/research/feature_example-copy/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Diversity</title>
+      <link>https://pestillilab.github.io/tacademiademo/team/feature_diversity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/team/feature_diversity/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Example Publication Title</title>
+      <link>https://pestillilab.github.io/tacademiademo/publications/example_publication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/publications/example_publication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example Slide</title>
+      <link>https://pestillilab.github.io/tacademiademo/home/slider_example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/home/slider_example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example Slide</title>
+      <link>https://pestillilab.github.io/tacademiademo/publications/banner_example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/publications/banner_example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example Slide</title>
+      <link>https://pestillilab.github.io/tacademiademo/research/banner_example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/research/banner_example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example Slide</title>
+      <link>https://pestillilab.github.io/tacademiademo/satelliteprojects/banner_example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/satelliteprojects/banner_example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example Slide</title>
+      <link>https://pestillilab.github.io/tacademiademo/team/banner_example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/team/banner_example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example Slide</title>
+      <link>https://pestillilab.github.io/tacademiademo/team/slider_example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/team/slider_example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inclusivity</title>
+      <link>https://pestillilab.github.io/tacademiademo/team/feature_inclusivity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/team/feature_inclusivity/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Map Title</title>
+      <link>https://pestillilab.github.io/tacademiademo/home/map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/home/map/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pi Title</title>
+      <link>https://pestillilab.github.io/tacademiademo/research/example_nsf_funding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/research/example_nsf_funding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PUBLICATION</title>
+      <link>https://pestillilab.github.io/tacademiademo/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RESEARCH</title>
+      <link>https://pestillilab.github.io/tacademiademo/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research vision</title>
+      <link>https://pestillilab.github.io/tacademiademo/home/feature/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/home/feature/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>TEAM</title>
+      <link>https://pestillilab.github.io/tacademiademo/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pestillilab.github.io/tacademiademo/team/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

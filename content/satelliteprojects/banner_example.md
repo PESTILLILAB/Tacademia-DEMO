@@ -1,5 +1,5 @@
 ---
 title: Example Slide
-image : img/man-kid.jpg
+image : /img/man-kid.jpg
 tags : ['banner']
 ---

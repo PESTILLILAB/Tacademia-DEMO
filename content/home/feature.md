@@ -1,6 +1,6 @@
 ---
-title: Research vision
-subtitle : It takes the world to understand the brain.
+title:  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+subtitle :  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 image : img/500x500.svg
 tags : ['feature']
 backgroundColor : '#000000'
@@ -8,4 +8,4 @@ titleColor : '#ffffff'
 subtitleColor : 'white'
 textColor : 'gray'
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae. Sub Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, perferendis saepe voluptatem a nesciunt architecto voluptas deleniti dolor tempora quasi quidem odit rem fugit magnam minima quam dolores vel id? Header 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
